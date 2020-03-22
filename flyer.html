@@ -1,0 +1,230 @@
+<style>
+body{
+	font-family: Arial;
+}
+
+.outerContainer{
+	width: 100%;
+	min-height:50vh;
+	height:90%;
+	margin-top: 5%;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+	border: #a6a6a6 5px solid;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.headerContainer{
+	flex-direction: row;
+	display:flex;
+	color: white;
+	overflow:hidden;
+	position:relative;
+	background-color: #a6a6a6;
+	padding-bottom:25px;
+	padding-top:25px
+}
+
+.headerHello{
+	flex: 1.5;
+	padding-left: 50px;
+	border-radius: inherit;
+	font-size: 3em;
+}
+
+.headerExplainer{
+	flex: 7;
+	border-radius: inherit;
+	padding-left:20px;
+	font-size: 25px;
+}
+
+.fieldSection{
+	flex-direction: column;
+	display: flex;
+	width:100%;
+	background-color: white;
+}
+
+.field{
+	font-size:1.5em;
+	border-bottom: #e0e0e0 dotted;
+	padding: 10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	flex-direction: row;
+	display: flex;
+}
+
+.reachOutMessage{
+	font-size:1.2em;
+	background-color: #cacaca;
+	padding:25px;
+}
+
+.actionItemContainer{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+
+.actionItemColumn{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.actionItem{
+	font-size: 1.2em;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.footerSections{
+	display: flex;
+	flex-direction: row;
+	flex:1;
+}
+
+.groups{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	padding:15px;
+	font-size: 1.3em;
+	height:100%;
+}
+
+.whatIsMutualAid{
+	flex:1;
+	padding:15px;
+	background-color: #e6e6e6;
+}
+
+.whatIsMutualAidTitle{
+	font-size:1.2em;
+}
+
+.whatIsMutualAidExplainer{
+	font-size: 1em;
+}
+
+.answer{
+	flex:1;
+	margin-left:20px;
+	font-style:italic;
+}
+
+.groupList{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	padding-top:10px;
+}
+
+.groupItem{
+	flex:1;
+}
+</style>
+
+<body>
+	<div class="outerContainer">
+		<div class="headerContainer">
+			<div contenteditable="true" class="headerHello">
+				Hello!
+			</div>
+			<div contenteditable="true" class="headerExplainer">
+			If you're self-isolating or at risk of a coronavirus (COVID-19) infection, I can help!
+			</div>
+
+		</div>
+		<div class="fieldSection">
+			<div id="nameField" class="field">
+				<div class="label" contenteditable="true"> My name is</div>
+				<div contenteditable="true" class="answer"></div>
+			</div>
+			<div id="localeField" class="field">
+				<div class="label" contenteditable="true"> I live locally at</div>
+				<div contenteditable="true" class="answer"></div>
+			</div>
+			<div id="phoneField" class="field">
+				<div class="label" contenteditable="true"> My phone number is</div>
+				<div contenteditable="true" class="answer"></div>
+			</div>
+			<div id="emailField" class="field">
+				<div class="label" contenteditable="true"> My email address is</div>
+				<div contenteditable="true" class="answer"></div>
+			</div>
+
+		</div>
+		<div class="reachOutMessage" contenteditable="true">
+			If you need help in your self-isolation, please reach out by calling, texting, or emailing me using the contact details above! <br/>Our group of community volunteers can help out with:
+		</div>
+		<div class="actionItemContainer">
+			<div class="actionItemColumn">
+				<div class="actionItem" contenteditable="true">
+					Picking Up Shopping
+				</div>
+				<div class="actionItem" contenteditable="true">
+					Walking Dogs
+				</div>
+				<div class="actionItem" contenteditable="true">
+					Posting Mail
+				</div>
+				<div class="actionItem" contenteditable="true">
+					Cooking a Meal
+				</div>
+			</div>
+			<div class="actionItemColumn">
+				<div class="actionItem" contenteditable="true">
+					Transport
+				</div>
+				<div class="actionItem" contenteditable="true">
+					Friendly Phone Calls
+				</div>
+				<div class="actionItem" contenteditable="true">
+					
+				</div>
+				<div class="actionItem" contenteditable="true">
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="footerSections">
+			<div class="groups">
+				<div class="groupsExplainer" contenteditable="true">
+				If you're on Facebook and are interested in either receiving or giving aid, please consider joining the following groups:
+				</div>
+				<div class="groupList">
+					<div class="groupItem" contenteditable="true">
+						'CareMongering - Adelaide'
+					</div>
+					<div class="groupItem" contenteditable="true">
+						Group 2
+					</div>
+					<div class="groupItem" contenteditable="true">
+						Group 3
+					</div>
+				</div>
+
+
+			</div>
+
+
+		<div class="whatIsMutualAid">
+			<div class="whatIsMutualAidTitle">
+				<strong contenteditable="true">What is Mutual Aid?</strong>
+			</div>
+			<div class="whatIsMutualAidExplainer" contenteditable="true">
+					Mutual Aid is the idea that when we work together as a community we all benefit.<br/>
+					Mutual Aid is taking responsibility for <em>everyone</em> through direct action rather than symbolic acts or relying on politicians or the state.<br/><br/>
+					If you're able, fill out and distribute this flyer ( http://BIGOLADDRESS.com ) and create mutual aid groups to support your neighbourhood and communities (especially those who don't have access to Facebook and the groups on there!)
+			</div>
+		</div>
+	</div>
+</body>
